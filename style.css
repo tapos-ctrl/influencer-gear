@@ -11,15 +11,19 @@
 :root {
     --primary-color: #3A3A3A;
     --text-gray: #18191F;
-    --gray-50: #787885
+    --gray-50: #787885;
+    --btn-text: #FFF
 }
 
 section,
-.header {
+.header,
+.banner {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+img{
+    width: 100%;
+}
 /* header styles  */
 .header {
     display: flex;
@@ -50,4 +54,47 @@ nav>ul>li>a {
     color: var(--primary-color);
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/* banner styles  */
+.banner{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.banner-content{
+    width: 50%;
+    
+}
+.banner-img-box{
+    width: 50%;
+    text-align: right;
+}
+.banner-title {
+    color: var(--primary-color);
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+    align-self:center;
+}
+
+.banner-description {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 16px 0px;
+}
+
+.preebook-btn {
+    color: var(--btn-text);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+}
+.btn-arrow{
+    margin-left: 10px;
 }
