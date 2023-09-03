@@ -67,8 +67,11 @@ nav>ul>li>a {
     
 }
 .banner-img-box{
+    background-image: url('./images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 50%;
-    text-align: right;
 }
 .banner-title {
     color: var(--primary-color);
