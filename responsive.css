@@ -8,7 +8,11 @@
 @media (max-width: 991.98px) {}
 
 /* applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .collections-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -24,7 +28,8 @@
         width: 100%
     }
 
-    header,section {
+    header,
+    section {
         padding: 18px;
     }
 
@@ -51,14 +56,19 @@
     }
 
     /* sponsor styles  */
-    .sponsor-img-container{
+    .sponsor-img-container {
         justify-content: center;
-    
-    }
-    .sponsor-img-container img{
-        width: 100%;
-    
+
     }
 
+    .sponsor-img-container img {
+        width: 100%;
+
+    }
+
+    /* collection section  */
+    .collections-container {
+        grid-template-columns: 1fr;
+    }
 
 }
