@@ -24,7 +24,9 @@
     }
 
     .banner-content,
-    .banner-img-box {
+    .banner-img-box,
+    .featured-img,
+    .featured-content {
         width: 100%
     }
 
@@ -37,7 +39,8 @@
         font-size: 2.5rem;
     }
 
-    .banner {
+    .banner,
+    .featured {
         flex-direction: column-reverse;
     }
 
@@ -69,6 +72,25 @@
     /* collection section  */
     .collections-container {
         grid-template-columns: 1fr;
+    }
+
+    /* featured styles  */
+    .featured {
+        padding-top:20px;
+    }
+
+    .featured-img,
+    .featured-content {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .featured-img {
+        margin-top: 30px;
+    }
+    /* footer styles  */
+    .footer>h1 {
+        font-size: 2rem;
     }
 
 }
