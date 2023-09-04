@@ -15,9 +15,9 @@
     --btn-text: #FFF
 }
 
-section,
+
 .header,
-.banner {
+.banner,section {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -101,3 +101,18 @@ nav>ul>li>a {
 .btn-arrow{
     margin-left: 10px;
 }
+/* header end  */
+/* main start  */
+
+/* sponsor start  */
+.sponsor-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sponsor-img-container img{
+    padding: 20px;
+    max-width:60px;
+    text-align: center;
+}
+/* sponsor end  */

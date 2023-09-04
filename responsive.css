@@ -24,7 +24,7 @@
         width: 100%
     }
 
-    header {
+    header,section {
         padding: 18px;
     }
 
@@ -48,6 +48,16 @@
     nav>ul>li {
 
         padding: 10px 0px;
+    }
+
+    /* sponsor styles  */
+    .sponsor-img-container{
+        justify-content: center;
+    
+    }
+    .sponsor-img-container img{
+        width: 100%;
+    
     }
 
 
